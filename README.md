@@ -63,7 +63,7 @@ The system analyzes GitHub repositories to detect bugs, security vulnerabilities
 
 ## 🏗️ System Architecture
 
-User (Streamlit UI) -> Repository Ingestion (GitPython) -> Code Parsing (AST) -> Static Analysis Engine -> LLM Review Engine -> Correlation Engine -> Severity Scoring Engine -> Report Generation->
+User (Streamlit UI) -> Repository Ingestion (GitPython) -> Code Parsing (AST) -> Static Analysis Engine -> LLM Review Engine -> Correlation Engine -> Severity Scoring Engine -> Report Generation
 
 ---
 
