@@ -63,21 +63,21 @@ The system analyzes GitHub repositories to detect bugs, security vulnerabilities
 
 ## 🏗️ System Architecture
 
-User (Streamlit UI)
-↓
-Repository Ingestion (GitPython)
-↓
-Code Parsing (AST)
-↓
-Static Analysis Engine
-↓
-LLM Review Engine
-↓
-Correlation Engine
-↓
-Severity Scoring Engine
-↓
-Report Generation
+User (Streamlit UI)->
+
+Repository Ingestion (GitPython)->
+
+Code Parsing (AST)->
+
+Static Analysis Engine->
+
+LLM Review Engine->
+
+Correlation Engine->
+
+Severity Scoring Engine->
+
+Report Generation->
 
 
 ---
@@ -92,23 +92,6 @@ Report Generation
 | Git Handling | GitPython |
 | Visualization | Plotly |
 | Data Handling | Pandas |
-
----
-
-## 📁 Project Structure
-
-ai-code-review-copilot/
-│
-├── app.py # Streamlit UI
-├── pipeline.py # Core pipeline
-├── requirements.txt
-├── README.md
-│
-├── config/ # Configurations
-├── services/ # Core engines
-├── utils/ # Helper functions
-├── models/ # Data models
-
 
 ---
 
